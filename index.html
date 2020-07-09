@@ -3,57 +3,58 @@
     <head>
         <meta charset="UTF-8">
         <title>FCC Project 1: Tribute Page</title>
-    </head>
-    <!--FCC first requirement - element with corresponding id="main".-->
+        <link rel="stylesheet" href="styles/styles.css">                
+    </head>   
+    <!-- FCC first requirement - element with corresponding id="main". -->
     <body id="main">
-        <!--FCC second requirement - element with corresponding id="title" which contains a string.-->
-        <h1 id="title">Ada Augusta Lovelace</h1>
-        <h2>Countess of Lovelace</h2>
-        <p>The First Computer Programmer</p>
-        <!--FCC third requirement: div element with corresponding id="img-div".-->
+        <!-- FCC second requirement - element with corresponding id="title" which contains a string. -->
+        <h1 class="headings" id="title">Ada Augusta Lovelace</h1>
+        <h2 class="headings">Countess of Lovelace</h2>
+        <p class="center">The First Computer Programmer</p>
+        <!-- FCC third requirement: div element with corresponding id="img-div". -->
         <div id="img-div">
             <figure>
-            <!--FCC fourth requirement - within the img-div element have an img element with a corresponding id="image".-->
-            <img id="image" src="images\Ada.jpg" alt="Portrait of Ada by British painter Margaret Sarah Carpenter">
-            <!--FCC fifth requirement - within the img-div element have an element with corresponding id="img-caption" and text describing the image.-->
+            <!-- FCC fourth requirement - within the img-div element have an img element with a corresponding id="image". -->
+            <img id="image" src="images/Ada.jpg" alt="Portrait of Ada by British painter Margaret Sarah Carpenter">
+            <!-- FCC fifth requirement - within the img-div element have an element with corresponding id="img-caption" and text describing the image. -->
             <figcaption id="img-caption">Portrait of Ada by British painter Margaret Sarah Carpenter</figcaption>
             </figure>
         </div>
-        <!--FCC sixth requirment - have an element with a corresponding id="tribute-info", which contains text describing the subject of the tribute page.-->
+        <!-- FCC sixth requirement - have an element with a corresponding id="tribute-info", which contains text describing the subject of the tribute page. -->
         <section id="tribute-info">
-            <h3>Timeline of Ada Lovelace's Life:</h3>
+            <h3 class="headings">Timeline of Ada Lovelace's Life:</h3>
             <ul>
-                <li>1815 - On December 10th Ada was born in London, as Augusta Ada Byron. 
+                <li><span class="first-word">1815</span> - Ada born on December 10th in London, as Augusta Ada Byron. 
                     Legitamate daugther of famous poet Lord George Gordon Byron and Lady Ann Isabella Milbanke Byron.
                 </li>
-                <li>1823 - Ada was often ill and at the age of 8 she experienced headaches that obscured her vision.
+                <li><span class="first-word">1823</span> - Ada was often ill and at the age of 8 she experienced headaches that obscured her vision.
                 </li>
-                <li>1829 - In June, after a bout with measles, she was left paralyzed and was confined to bed for
+                <li><span class="first-word">1829</span> - In June, after a bout with measles, she was left paralyzed and was confined to bed for
                     nearly a year. 
                 </li>
-                <li>1831 - She was able to walk with crutches. Despite her illnesses, she was able to develop her
-                    mathematical and technological skills.
+                <li><span class="first-word">1831</span> - Despite her illnesses, she was able to develop her
+                    mathematical and technological skills, subjects which at the time were not common for women to undertake.
                 </li>
-                <li>1833 - Met Charles Babbage, a mathematician and inventor. The pair became friends and the much
+                <li><span class="first-word">1833</span> - Met Charles Babbage, a mathematician and inventor. The pair became friends and the much
                     older Babbage served as a mentor to Ada.
                 </li>
-                <li>1835 - Married William King, who became the Earl of Lovelace three years later. She
+                <li><span class="first-word">1835</span> - Married William King, who became the Earl of Lovelace three years later. She
                     then took the title of Countess of Lovelace. They had 3 children together.
                 </li>
-                <li>1842 - Ada was asked to translate an article on Babbage's Analytical Engine that had
+                <li><span class="first-word">1842</span> - Ada was asked to translate an article on Babbage's Analytical Engine that had
                     been written by Italian engineer Luigi Federico Menabrea. She not only translated the
                     article but also added her own notes about the machine.
                 </li>
-                <li>1843 - The translation and her notes which were much longer than Menabrea's paper, were
+                <li><span class="first-word">1843</span> - The translation and her notes which were much longer than Menabrea's paper, were
                     published in the September edition of Taylor's Scientific Memoirs under the initials A.A.L
                     for Augusta Ada Lovelace. Ada's notes were labelled alphabetecally from A to G. In note G,
                     she describes an algorithm for the Analytical Engine to compute Bernoulli numbers. Considered
                     to be the first published algorithm ever for use on a computer. 
                 </li>
-                <li>1852 - Died from uterin cancer on November 27th at the age of 36. She was buried next to her father,
+                <li><span class="first-word">1852</span> - Died from uterin cancer on November 27th at the age of 36. She was buried next to her father,
                     at the Church of St. Mary Magdalene in Nottinghamshire, England.
                 </li>
-                <li>1953 - Ada's contributions to the field of computer science were not discovered until
+                <li><span class="first-word">1953</span> - Ada's contributions to the field of computer science were not discovered until
                     the 1950s or about over a century after her death. Her notes were reintroduced to the 
                     world by B.V. Bowden, who republished them in Faster Than Thought: A Symposium on Digital
                     Computing Machines in 1953. The Analytical Engine has now been recognized as an early model for
@@ -63,7 +64,7 @@
                 </li>
             </ul>
             <figure>
-                <img src="images\Analytical-Engine.jpg" alt="A portion of Charles Babbage's Analytical Engine">
+                <img src="images/Analytical-Engine.jpg" alt="A portion of Charles Babbage's Analytical Engine">
                 <figcaption>A portion of Charles Babbage's Analytical Engine</figcaption>                
             </figure>            
             <p>"The Analytical Engine weaves algebraic patterns just as the Jaquard loom weaves flowers and leaves.
@@ -78,16 +79,13 @@
                a vast, and powerful language is developed for the future use of analysis, in which to wield its truths so that these
                may become of more speedy and accurate practical application for the purpose of mankind than the means hitherto in our
                possession have rendered possible. Thus not only the mental and the material, but the theoretical and the practical in 
-               the mathematical world, are brought into more intimate and effective connection with each other."
-
-               --Ada Lovelace. 
+               the mathematical world, are brought into more intimate and effective connection with each other." 
             </p>
-            <p>"That brain of mine is something more than merely mortal; as time will show."
-
-                --Ada Lovelace.
-            </p>
-            <!--FCC seventh requirment - have an a element with a corresponding id="tribute-link" which links to an outside site that contains additional info about he subject of the tribute page.-->
-            <p>To read more about The Countess of Lovelace, please click here: <a id="tribute-link" href="https://en.wikipedia.org/wiki/Ada_Lovelace" target="_blank">Wikipedia</a></p>
+            <p class="center">-- A.A.L</p>
+            <!-- FCC seventh requirement - have an a element with a corresponding id="tribute-link" which links to an outside site that contains additional info about he subject of the tribute page. -->
+            <p>To learn more about The Countess of Lovelace, please click here: <a id="tribute-link" href="https://en.wikipedia.org/wiki/Ada_Lovelace" target="_blank">Wikipedia</a></p>
         </section>
+        <!-- FCC test suite. -->
+        <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
     </body>
 </html>
