@@ -15,7 +15,7 @@
 }
 /* Inserting code.png image as background */
 div{
-    background-image: url("/images/code.png");
+    background-image: url("../images/code.png");
 }
 /* FCC eighth requirement - img element responsively resizes to the width of its parent without exceeding original size. */
 img{
